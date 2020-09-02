@@ -1,0 +1,80 @@
+{
+  "_from": "capacitor-admob@^0.1.0",
+  "_id": "capacitor-admob@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-mLRsre3muUfXU/9MPA4sfyjwONNLBfRLrUuWCpmIHd6Pq9cKZMMxrJxwHBjZfQQd5zLdnJrQeOgTq0qb4WntjA==",
+  "_location": "/capacitor-admob",
+  "_phantomChildren": {
+    "tslib": "1.13.0"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "capacitor-admob@^0.1.0",
+    "name": "capacitor-admob",
+    "escapedName": "capacitor-admob",
+    "rawSpec": "^0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/capacitor-admob/-/capacitor-admob-0.1.0.tgz",
+  "_shasum": "25678d15370034b503f816b1a7cdaba3ec2c4b8a",
+  "_spec": "capacitor-admob@^0.1.0",
+  "_where": "C:\\Hakeem\\Development\\Takwin\\development\\SpeedReading\\speed-reading-ionic",
+  "author": {
+    "name": "Rahadur Rahman",
+    "email": "get.rahadur@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rahadur/capacitor-admob/issues"
+  },
+  "bundleDependencies": false,
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "dependencies": {
+    "@capacitor/core": "latest"
+  },
+  "deprecated": false,
+  "description": "This is Ionic Capacitor native AdMob plugin for IOS & Android",
+  "devDependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/ios": "latest",
+    "typescript": "^3.7.3"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "android/",
+    "CapacitorAdmob.podspec"
+  ],
+  "homepage": "https://github.com/rahadur/capacitor-admob#readme",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "license": "MIT",
+  "main": "dist/esm/index.js",
+  "name": "capacitor-admob",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahadur/capacitor-admob.git"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "types": "dist/esm/index.d.ts",
+  "version": "0.1.0"
+}
